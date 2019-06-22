@@ -3,7 +3,7 @@
 
 During statistical analysis of data, a data scientist often needs to build various kinds of plots to explore or confirm a hypothesis regarding the data. It can sometimes be a hurdle to write multiple lines of code before actually seeing a plot. In such cases, it is practical to minimize the time delay between the conception of the hypothesis and the visualization of data.
 
-The following python package is an attempt to minimize the time taken to make visualizations. Reasonable defaults are set for each plot; however, they can be changed manually if required. The package uses standard matplotlib and seaborn plotting functions. Visualizations are shown on the boston housing dataset. 
+The following python package is an attempt to minimize the time taken to make visualizations. Reasonable defaults are set for each plot; however, they can be changed manually if required. The package is based on matplotlib and seaborn plotting functions. Visualizations are shown on the boston housing dataset. 
 
 ## Description
 Following is a list and a brief description of the plots implemented in selfplot. For Examples of the plots on data please view selfplot Examples.html:
