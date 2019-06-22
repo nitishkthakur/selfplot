@@ -27,15 +27,23 @@ To Use the library in jupyter notebook/Spyder:
 
 ```python
 import selfplot    
+
+# Univariate plot - Can be used to visualize skew in data and detect outliers.
 selfplot.univariate(X)
 ```
 ![Univariate Plot](https://github.com/nitishkthakur/selfplot/blob/master/Univariate.png?raw=true "Title")
 
 ```python
+# Univariate time series plot - Time series plot of data and visualization of its distribution using Violin plot
 selfplot.ts_univariate(X)
 ```
 ![Univariate Time Series Plot](https://github.com/nitishkthakur/selfplot/blob/master/ts_Univariate.png?raw=true "Title")
 
+```python
+# Bivariate Binning plots - Can be used to visualize one variable as a function of another. The variable on x axis is divided into user defined bins. The boxplot shows the distribution of the y variable in each bin of the x variable
+selfplot.bivariate_binning(X)
+```
+![Univariate Time Series Plot](https://github.com/nitishkthakur/selfplot/blob/master/binning_bivariate.png?raw=true "Title")
 
-For Examples of selfplot on data please view selfplot Examples.html.
+For more examples of using selfplot on data please view 'selfplot Examples.html'.
 
