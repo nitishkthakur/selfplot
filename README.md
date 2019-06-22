@@ -29,7 +29,13 @@ To Use the library in jupyter notebook/Spyder:
 import selfplot    
 selfplot.univariate(X)
 ```
-![Alt text](https://github.com/nitishkthakur/selfplot/blob/master/ts_Univariate.png?raw=true "Title")
+![Univariate Plot](https://github.com/nitishkthakur/selfplot/blob/master/Univariate.png?raw=true "Title")
+
+```python
+selfplot.ts_univariate(X)
+```
+![Univariate Time Series Plot](https://github.com/nitishkthakur/selfplot/blob/master/ts_Univariate.png?raw=true "Title")
+
 
 For Examples of selfplot on data please view selfplot Examples.html.
 
