@@ -29,7 +29,7 @@ To Use the library in jupyter notebook/Spyder:
 import selfplot    
 selfplot.univariate(X)
 ```
-![Alt text](F:/Analytics/Univariate.png?raw=true "Title")
+![Alt text](https://github.com/nitishkthakur/selfplot/blob/master/ts_Univariate.png?raw=true "Title")
 
 For Examples of selfplot on data please view selfplot Examples.html.
 
