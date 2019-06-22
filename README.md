@@ -5,8 +5,7 @@ During statistical analysis of data, a data scientist often needs to build vario
 
 The following package is an attempt to minimize the time taken to make visualizations. Reasonable defaults are set for each plots; however, they can be changed manually if required.
 
-<br> </br>
-
+## Description
 Following is a list and a brief description of the plots implemented in selfplot. For Examples of the plots on data please view selfplot Examples.html:
 
 **univariate()** - Plot a histogram and a boxplot of data. Can be used to detect skew in data and the corresponding number of outliers through the boxplot.    
