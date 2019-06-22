@@ -6,7 +6,7 @@ During statistical analysis of data, a data scientist often needs to build vario
 The following python package is an attempt to minimize the time taken to make visualizations. Reasonable defaults are set for each plot; however, they can be changed manually if required. All plots can be made with just one line of code. The package is based on matplotlib and seaborn plotting functions. Visualizations are shown on the boston housing dataset. 
 
 ## Description
-Following is a list and a brief description of the plots implemented in selfplot. For Examples of the plots on data please view selfplot Examples.html:
+Following is a list and a brief description of the plots implemented in selfplot. For Examples of the plots on data please view 'selfplot Examples.html':
 
 **univariate()** - Plot a histogram and a boxplot of data. Can be used to detect skew in data and the corresponding number of outliers through the boxplot.    
 **ts_univariate()** - Plot a time series plot along with a violin plot to visualize the distribution.    
