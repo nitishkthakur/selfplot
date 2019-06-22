@@ -53,5 +53,5 @@ selfplot.bivariate_binning(data = data, x = 'LSTAT', y = 'median_housing_price',
 ```
 ![Bivariate Binning Plot](https://github.com/nitishkthakur/selfplot/blob/master/binning_bivariate.png?raw=true "Title")
 
-For more examples of using selfplot on data please view 'selfplot Examples.html'.
+For other examples of using selfplot on data please view 'selfplot Examples.html'.
 
