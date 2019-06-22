@@ -20,7 +20,8 @@ Following is a list and a brief description of the plots implemented in selfplot
 **hexbin()** - Plot a hexbin plot    
 **heatmap()** - Plot a heatmap. This can be useful for visualizing correlations.    
 
-To use the package, copy selfplot.py to the Lib\site-packages folder in the python installation folder.     
+## How to use
+To use the package, copy selfplot.py to the Lib\site-packages folder in the python installation folder.          
 If you have Anaconda installed, copy selfplot.py to Anaconda\Lib\site-packages\
 
 After copying the file, the package can be imported in jupyter notebook/Spyder:
