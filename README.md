@@ -38,7 +38,7 @@ selfplot.univariate(X)
 
 ```python
 # Univariate time series plot - Time series plot of data and visualization of its distribution using Violin plot
-selfplot.ts_univariate(X)
+selfplot.ts_univariate(ts_median_housing_prices)
 ```
 ![Univariate Time Series Plot](https://github.com/nitishkthakur/selfplot/blob/master/ts_Univariate.png?raw=true "Title")
 
@@ -48,9 +48,9 @@ selfplot.ts_univariate(X)
 # Bivariate Binning plots - Can be used to visualize one variable as a function of another.
 # The variable on x axis is divided into bins. 
 # The boxplot shows the distribution of the y variable in each bin of the x variable
-selfplot.bivariate_binning(X)
+selfplot.bivariate_binning(data = data, x = 'LSTAT', y = 'median_housing_price', bins = range(1, 30, 5))
 ```
-![Univariate Time Series Plot](https://github.com/nitishkthakur/selfplot/blob/master/binning_bivariate.png?raw=true "Title")
+![Bivariate Binning Plot](https://github.com/nitishkthakur/selfplot/blob/master/binning_bivariate.png?raw=true "Title")
 
 For more examples of using selfplot on data please view 'selfplot Examples.html'.
 
