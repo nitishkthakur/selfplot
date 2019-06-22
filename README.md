@@ -46,7 +46,7 @@ selfplot.ts_univariate(X)
 
 ```python
 # Bivariate Binning plots - Can be used to visualize one variable as a function of another.
-# The variable on x axis is divided into user defined bins. 
+# The variable on x axis is divided into bins. 
 # The boxplot shows the distribution of the y variable in each bin of the x variable
 selfplot.bivariate_binning(X)
 ```
