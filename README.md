@@ -3,7 +3,7 @@
 
 During statistical analysis of data, a data scientist often needs to build various kinds of plots as he hopes to explore or confirm a hypothesis regarding the data. It can sometimes be a hurdle to write multiple lines of code before actually seeing a plot. In such cases, it is practical to minimize the time delay between the conception of the hypothesis and the visualization of data.
 
-The following package is an attempt to minimize the time taken to make visualizations. Reasonable defaults are set for each plots; however, they can be changed manually if required. The package uses standard matplotlib and seaborn plotting functions. 
+The following package is an attempt to minimize the time taken to make visualizations. Reasonable defaults are set for each plots; however, they can be changed manually if required. The package uses standard matplotlib and seaborn plotting functions. Visualizations are shown on the boston housing dataset. 
 
 ## Description
 Following is a list and a brief description of the plots implemented in selfplot. For Examples of the plots on data please view selfplot Examples.html:
@@ -20,10 +20,10 @@ Following is a list and a brief description of the plots implemented in selfplot
 **hexbin()** - Plot a hexbin plot    
 **heatmap()** - Plot a heatmap. This can be useful for visualizing correlations.    
 
-To use the package, copy selfplot.py to the Lib\site-packages folder in the python installation folder. 
+To use the package, copy selfplot.py to the Lib\site-packages folder in the python installation folder.     
 If you have Anaconda installed, copy selfplot.py to Anaconda\Lib\site-packages\
 
-To Use the library in jupyter notebook/Spyder:
+After copying the file, the package can be imported in jupyter notebook/Spyder:
 
 ```python
 import selfplot    
