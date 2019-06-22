@@ -41,7 +41,7 @@ selfplot.univariate(X)
 # Univariate time series plot - Time series plot of data and visualization of its distribution using Violin plot
 selfplot.ts_univariate(ts_median_housing_prices)
 ```
-![Univariate Time Series Plot](https://github.com/nitishkthakur/selfplot/blob/master/ts_Univariate.png?raw=true "Title")
+![Univariate Time Series Plot ](https://github.com/nitishkthakur/selfplot/blob/master/ts_Univariate.png?raw=true "Title")
 
 
 
