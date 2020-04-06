@@ -19,6 +19,7 @@ Following is a list and a brief description of the plots implemented in selfplot
 **scatter()** - Plot a scatter plot    
 **hexbin()** - Plot a hexbin plot    
 **heatmap()** - Plot a heatmap. This can be useful for visualizing correlations.    
+**bar()** - Make an bar plot with annotation
 
 ## How to use
 To use the package, copy selfplot.py to the Lib\site-packages folder in the python installation folder.          
