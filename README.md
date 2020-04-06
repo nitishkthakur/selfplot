@@ -34,7 +34,7 @@ import selfplot
 # The histogram and the boxplot are positioned to make it easy to see which points on the histogram are outliers.
 selfplot.univariate(X)
 ```
-![Univariate Plot](https://github.com/nitishkthakur/selfplot/blob/master/Univariate.png?raw=true "Title")
+![Univariate Plot](https://github.com/nitishkthakur/selfplot/blob/master/Images/Univariate.png?raw=true "Title")
 
 
 
@@ -42,7 +42,7 @@ selfplot.univariate(X)
 # Univariate time series plot - Time series plot of data and visualization of its distribution using Violin plot
 selfplot.ts_univariate(ts_median_housing_prices)
 ```
-![Univariate Time Series Plot ](https://github.com/nitishkthakur/selfplot/blob/master/TS_Univariate.png?raw=true "Title")
+![Univariate Time Series Plot ](https://github.com/nitishkthakur/selfplot/blob/master/Images/TS_Univariate.png?raw=true "Title")
 
 
 
@@ -52,13 +52,19 @@ selfplot.ts_univariate(ts_median_housing_prices)
 # The boxplot shows the distribution of the y variable in each bin of the x variable
 selfplot.bivariate_binning(data = data, x = 'LSTAT', y = 'median_housing_price', bins = range(1, 30, 5))
 ```
-![Bivariate Binning Plot](https://github.com/nitishkthakur/selfplot/blob/master/binning_bivariate.png?raw=true "Title")
+![Bivariate Binning Plot](https://github.com/nitishkthakur/selfplot/blob/master/Images/binning_bivariate.png?raw=true "Title")
 
 ```python
 # Violinplot with reasonable defaults
 selfplot.violin(data, colnames = ['RM', 'LSTAT', 'PTRATIO', 'ZN'], figsize = (10, 3)) # Setting the figuresize manually
 ```
-![Violinplot ](https://github.com/nitishkthakur/selfplot/blob/master/Violin.png?raw=true "Title")
+![Violinplot ](https://github.com/nitishkthakur/selfplot/blob/master/Images/Violin.png?raw=true "Title")
+
+```python
+# Scatterplot with reasonable defaults
+selfplot.scatter(data['LSTAT'], data['RM'], c = data['median_housing_price'])
+```
+![Scatterplot ](https://github.com/nitishkthakur/selfplot/blob/master/Images/Scatter.png?raw=true "Title")
 
 For other examples of using selfplot on data please view 'selfplot Examples.html'.
 
