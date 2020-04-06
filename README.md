@@ -54,5 +54,11 @@ selfplot.bivariate_binning(data = data, x = 'LSTAT', y = 'median_housing_price',
 ```
 ![Bivariate Binning Plot](https://github.com/nitishkthakur/selfplot/blob/master/binning_bivariate.png?raw=true "Title")
 
+```python
+# Violinplot with reasonable defaults
+selfplot.violin(data, colnames = ['RM', 'LSTAT', 'PTRATIO', 'ZN'], figsize = (10, 3)) # Setting the figuresize manually
+```
+![Violinplot ](https://github.com/nitishkthakur/selfplot/blob/master/Violin.png?raw=true "Title")
+
 For other examples of using selfplot on data please view 'selfplot Examples.html'.
 
