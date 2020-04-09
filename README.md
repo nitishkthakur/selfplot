@@ -23,7 +23,7 @@ Following is a list and a brief description of the plots implemented in selfplot
 **bar()** - Make a bar plot with annotation
 
 ### Model Analysis Plots
-**residual_diagnose()** - Visualize distribution of Residuals of a Regression Model via parity and density plots; visualize behaviour against predicted and actual values.
+**residual_diagnose()** - Visualize distribution of Residuals of a Regression Model via parity and density plots; visualize behaviour against predicted and actual values.         
 **prediction_diagnose()** - Compare distributions of Predicted value and True value. Also plots a time series graph of predicted and true values.
 
 ## How to use
