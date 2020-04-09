@@ -32,6 +32,7 @@ If you have Anaconda installed, copy selfplot.py to Anaconda\Lib\site-packages\
 
 After copying the file, the package can be imported in jupyter notebook/Spyder:
 
+### Exploratory Data Analysis visualization using selfplot
 ```python
 import selfplot    
 
@@ -64,6 +65,8 @@ selfplot.bivariate_binning(data = data, x = 'LSTAT', y = 'median_housing_price',
 selfplot.scatter(data['LSTAT'], data['RM'], c = data['median_housing_price'])
 ```
 ![Scatterplot ](https://github.com/nitishkthakur/selfplot/blob/master/Images/Scatter.png?raw=true "Title")
+
+### Model Analysis using selfplot
 
 ```python
 # Model Prediction Analysis Plots
